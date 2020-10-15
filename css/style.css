@@ -4,13 +4,14 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #091921;
+    overflow: hidden
 }
 
 .clock {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background-image: url('clock.png');
+    background-image: url('../clock.png');
     background-size: cover;
     display: flex;
     justify-content: center;
